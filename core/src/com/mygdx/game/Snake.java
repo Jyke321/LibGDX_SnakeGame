@@ -101,7 +101,6 @@ public class Snake extends ApplicationAdapter {
 			score[i].setPosition((400+scoreOffset-(16*i)),480-24);
 			score[i].draw(batch);
 		}
-		System.out.println(scoreTally);
 		batch.end();
 
 		//handle input
